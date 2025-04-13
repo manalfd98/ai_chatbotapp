@@ -172,7 +172,7 @@ export default function Chat() {
     setLoading(true);
 
     try {
-      const response = await fetch('http://192.168.18.9:11434/api/generate', {
+      const response = await fetch('your api key', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
